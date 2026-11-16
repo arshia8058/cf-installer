@@ -1,6 +1,6 @@
 export default {
   async fetch(request) {
-    const ALLOWED=['arshiyashams675-sudo.github.io','idvdjd8388.github.io','localhost','127.0.0.1'];
+    const ALLOWED=['arshia8058.github.io','arshiyashams675-sudo.github.io','idvdjd8388.github.io','localhost','127.0.0.1'];
     const origin=request.headers.get('Origin')||request.headers.get('Referer')||'';
     const isAllowed=ALLOWED.some(o=>origin===o||origin===('https://'+o)||origin===('http://'+o));
     const corsHeaders={'Access-Control-Allow-Origin':isAllowed?origin:'','Access-Control-Allow-Methods':'GET,POST,PUT,DELETE,OPTIONS','Access-Control-Allow-Headers':'Content-Type,Authorization,X-CF-Path,X-CF-Method,X-GitHub-Url','Access-Control-Expose-Headers':'Location,X-API-Deprecated'};

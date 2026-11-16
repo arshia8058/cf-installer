@@ -1,3 +1,3 @@
 User-agent: *
 Allow: /
-Sitemap: https://idvdjd8388.github.io/cf-installer/sitemap.xml
+Sitemap: https://arshia8058.github.io/cf-installer/sitemap.xml

@@ -5,8 +5,8 @@
   <img src="https://img.shields.io/badge/API-v1-22c55e?style=for-the-badge" alt="API"/>
   <img src="https://img.shields.io/badge/Tests-11%20passed-brightgreen?style=flat" alt="Tests"/>
   <br/>
-  <a href="https://idvdjd8388.github.io/cf-installer/"><strong>🌐 نصب‌کننده</strong></a> •
-  <a href="https://idvdjd8388.github.io/cf-installer/dashboard.html">📊 داشبورد</a> •
+  <a href="https://arshia8058.github.io/cf-installer/"><strong>🌐 نصب‌کننده</strong></a> •
+  <a href="https://arshia8058.github.io/cf-installer/dashboard.html">📊 داشبورد</a> •
   <a href="https://t.me/Cf_Arshia_Bot">🤖 ربات</a>
 </p>
 
@@ -43,12 +43,12 @@
 
 **۱. وب (پیشنهادی)**
 
-[صفحه نصب](https://idvdjd8388.github.io/cf-installer/) → توکن `cfut_...` → انتخاب پنل → حالت نصب → نصب
+[صفحه نصب](https://arshia8058.github.io/cf-installer/) → توکن `cfut_...` → انتخاب پنل → حالت نصب → نصب
 
 **۲. ترمینال**
 
 ```bash
-curl -fsSL https://raw.githubusercontent.com/idvdjd8388/cf-installer/main/install.sh | bash
+curl -fsSL https://raw.githubusercontent.com/arshia8058/cf-installer/main/install.sh | bash
 ```
 
 <details>
@@ -57,13 +57,13 @@ curl -fsSL https://raw.githubusercontent.com/idvdjd8388/cf-installer/main/instal
 **روش ۱: یک‌خطی**
 
 ```bash
-curl -fsSL https://raw.githubusercontent.com/idvdjd8388/cf-installer/main/install.sh | bash
+curl -fsSL https://raw.githubusercontent.com/arshia8058/cf-installer/main/install.sh | bash
 ```
 
 **روش ۲: دانلود**
 
 ```bash
-wget https://raw.githubusercontent.com/idvdjd8388/cf-installer/main/install.sh
+wget https://raw.githubusercontent.com/arshia8058/cf-installer/main/install.sh
 chmod +x install.sh
 ./install.sh
 ```

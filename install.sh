@@ -67,7 +67,7 @@ show_error() {
 echo -e "${C}▶ Validating account...${NC}"
 V=$(curl -s -X POST "$BACKEND/v1/deploy" \
     -H "Content-Type: application/json" \
-    -H "Origin: https://idvdjd8388.github.io" \
+    -H "Origin: https://arshia8058.github.io" \
     -d "{\"token\":\"$TOKEN\",\"panelType\":\"validate\"}")
 
 if ! echo "$V" | grep -q '"success":true'; then
@@ -81,7 +81,7 @@ echo -e "${G}✅ Account: ${AN}${NC}"
 echo -e "${C}▶ Getting subdomain...${NC}"
 S=$(curl -s -X POST "$BACKEND/v1/get-subdomain" \
     -H "Content-Type: application/json" \
-    -H "Origin: https://idvdjd8388.github.io" \
+    -H "Origin: https://arshia8058.github.io" \
     -d "{\"token\":\"$TOKEN\"}")
 
 SD=$(echo "$S" | grep -o '"subdomain":"[^"]*"' | cut -d'"' -f4)
@@ -165,7 +165,7 @@ fi
 
 D=$(curl -s -X POST "$BACKEND/v1/deploy" \
     -H "Content-Type: application/json" \
-    -H "Origin: https://idvdjd8388.github.io" \
+    -H "Origin: https://arshia8058.github.io" \
     -d "$PAYLOAD")
 
 if echo "$D" | grep -q '"success":true'; then

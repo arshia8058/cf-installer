@@ -4,7 +4,7 @@ import worker from '../worker-backend.js';
 // Helper to make Request with Origin
 function req(path, opts={}){
   const headers = opts.headers || {};
-  if(!headers['Origin']) headers['Origin']='https://idvdjd8388.github.io';
+  if(!headers['Origin']) headers['Origin']='https://arshia8058.github.io';
   return new Request(`https://example.com${path}`, { ...opts, headers });
 }
 
@@ -58,7 +58,7 @@ describe('worker-backend v1', () => {
   });
 
   it('handles OPTIONS CORS', async () => {
-    const res=await worker.fetch(new Request('https://example.com/v1/deploy',{method:'OPTIONS', headers:{Origin:'https://idvdjd8388.github.io'}}));
+    const res=await worker.fetch(new Request('https://example.com/v1/deploy',{method:'OPTIONS', headers:{Origin:'https://arshia8058.github.io'}}));
     expect(res.status).toBe(204);
   });
 
